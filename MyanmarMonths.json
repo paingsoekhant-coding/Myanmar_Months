@@ -2,7 +2,7 @@
     "Tbl_Months": [{
             "Id": 1,
             "ImgUrl": "./img/1.jpg",
-            "FestivelImg": "./festivalImg/tagu.jpg",
+            "FestivelImg": "./festivalImg main/tagu.jpg",
             "MonthMm": "တန်ခူး",
             "MonthEn": "April",
             "FestivalMm": "သင်္ကြန်ပွဲတော်",
@@ -14,7 +14,7 @@
             "Id": 2,
             "ImgUrl": "./img/2.jpg",
             "MonthMm": "ကဆုန်",
-            "FestivelImg": "./festivalImg/kason.jpg",
+            "FestivelImg": "./festivalImg main/kason.jpg",
             "MonthEn": "May",
             "FestivalMm": "ညောင်ရေသွန်းပွဲတော်",
             "FestivalEn": "Banyan tree watering ceremony",
@@ -24,7 +24,7 @@
         {
             "Id": 3,
             "ImgUrl": "./img/3.jpg",
-            "FestivelImg": "./festivalImg/nayon.jpg",
+            "FestivelImg": "./festivalImg main/nayon.jpg",
             "MonthMm": "နယုန်",
             "MonthEn": "June",
             "FestivalMm": "စာပြန်ပွဲတော်",
@@ -35,7 +35,7 @@
         {
             "Id": 4,
             "ImgUrl": "./img/4.jpg",
-            "FestivelImg": "./festivalImg/waso.jpg",
+            "FestivelImg": "./festivalImg main/waso.jpg",
             "MonthMm": "ဝါဆို",
             "MonthEn": "July",
             "FestivalMm": "ပဉ္စင်းခံပွဲ",
@@ -46,7 +46,7 @@
         {
             "Id": 5,
             "ImgUrl": "./img/5.jpg",
-            "FestivelImg": "./festivalImg/wagaung.jpg",
+            "FestivelImg": "./festivalImg main/wagaung.jpg",
             "MonthMm": "ဝါခေါင်",
             "MonthEn": "August",
             "FestivalMm": "စာရေးတံပွဲ",
@@ -57,7 +57,7 @@
         {
             "Id": 6,
             "ImgUrl": "./img/6.jpg",
-            "FestivelImg": "./festivalImg/tawthalin.jpg",
+            "FestivelImg": "./festivalImg main/tawthalin.jpg",
             "MonthMm": "တော်သလင်း",
             "MonthEn": "September",
             "FestivalMm": "လှေပြိုင်ပွဲ",
@@ -68,7 +68,7 @@
         {
             "Id": 7,
             "ImgUrl": "./img/7.jpg",
-            "FestivelImg": "./festivalImg/thadingyut.jpg",
+            "FestivelImg": "./festivalImg main/thadingyut.jpg",
             "MonthMm": "သီတင်းကျွတ်",
             "MonthEn": "October",
             "FestivalMm": "မီးထွန်းပွဲ",
@@ -79,7 +79,7 @@
         {
             "Id": 8,
             "ImgUrl": "./img/8.jpg",
-            "FestivelImg": "./festivalImg/tazaungmon.jpg",
+            "FestivelImg": "./festivalImg main/tazaungmon.jpg",
             "MonthMm": "တန်ဆောင်မုန်း",
             "MonthEn": "November",
             "FestivalMm": "တန်ဆောင်တိုင်ပွဲ",
@@ -90,7 +90,7 @@
         {
             "Id": 9,
             "ImgUrl": "./img/9.jpg",
-            "FestivelImg": "./festivalImg/nadaw.jpg",
+            "FestivelImg": "./festivalImg main/nadaw.jpg",
             "MonthMm": "နတ်တော်",
             "MonthEn": "December",
             "FestivalMm": "နတ်ပွဲ",
@@ -101,7 +101,7 @@
         {
             "Id": 10,
             "ImgUrl": "./img/10.jpg",
-            "FestivelImg": "./festivalImg/pyatho.jpg",
+            "FestivelImg": "./festivalImg main/pyatho.jpg",
             "MonthMm": "ပြာသို",
             "MonthEn": "January",
             "FestivalMm": "မြင်းခင်းပွဲ",
@@ -112,7 +112,7 @@
         {
             "Id": 11,
             "ImgUrl": "./img/11.jpg",
-            "FestivelImg": "./festivalImg/tabodwe.jpg",
+            "FestivelImg": "./festivalImg main/tabodwe.jpg",
             "MonthMm": "တပို့တွဲ",
             "MonthEn": "February",
             "FestivalMm": "ထမနဲပွဲ",
@@ -123,7 +123,7 @@
         {
             "Id": 12,
             "ImgUrl": "./img/12.jpg",
-            "FestivelImg": "./festivalImg/tabaung.jpg",
+            "FestivelImg": "./festivalImg main/tabaung.jpg",
             "MonthMm": "တပေါင်း",
             "MonthEn": "March",
             "FestivalMm": "သဲပုံစေတီပွဲ",
