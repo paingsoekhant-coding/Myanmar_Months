@@ -6,7 +6,7 @@ class Festival
     public function connectJson()
     {
 
-        $json_file = 'MyanmarMonths.json';
+        $json_file = './json/MyanmarMonths.json';
 
         $json_data = file_get_contents($json_file);
 
