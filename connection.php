@@ -1,34 +1,29 @@
 <?php
-
-
-class Festival
+class JsonConnector
 {
-    public function connectJson()
+    public function getJsonData($filePath)
     {
-
-        $json_file = './json/MyanmarMonths.json';
-
-        $json_data = file_get_contents($json_file);
-
-        $data = json_decode($json_data, true);
-
-        return $data;
-    }
-
-    public function month()
-    {
-        $data = $this->connectJson();
-        $months = $data['Tbl_Months'];
-
-        return $months;
-    }
-
-    public function getId()
-    {
-        $id = $_GET['id'];
-
-        return $id;
+        $json_data = file_get_contents($filePath);
+        return json_decode($json_data, true);
     }
 }
 
-$festival = new Festival();
+class Festival
+{
+    private $jsonConnector;
+    private $jsonFilePath = './json/MyanmarMonths.json';
+
+    public function __construct(JsonConnector $jsonConnector)
+    {
+        $this->jsonConnector = $jsonConnector;
+    }
+
+    public function getMonths()
+    {
+        $data = $this->jsonConnector->getJsonData($this->jsonFilePath);
+        return $data['Tbl_Months'];
+    }
+}
+
+$jsonConnector = new JsonConnector();
+$festival = new Festival($jsonConnector);
