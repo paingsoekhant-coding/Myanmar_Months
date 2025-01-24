@@ -13,7 +13,7 @@ class Festival
     private $jsonConnector;
     private $jsonFilePath = './json/MyanmarMonths.json';
 
-    public function __construct(JsonConnector $jsonConnector)
+    public function __construct($jsonConnector)
     {
         $this->jsonConnector = $jsonConnector;
     }
